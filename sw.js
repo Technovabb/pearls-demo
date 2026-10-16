@@ -1,7 +1,7 @@
 // Pearls Parent Portal demo: makes it installable and lets it open with no connection.
 // Pages are fetched fresh when online (so updates show straight away); the saved copy is only
 // used offline. The Google fonts are saved the first time they load.
-const CACHE = "pearls-demo-v1";
+const CACHE = "pearls-demo-v2";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png"];
 
 self.addEventListener("install", (event) => {
